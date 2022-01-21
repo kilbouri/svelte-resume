@@ -1,0 +1,44 @@
+[
+    {
+        "title":"Software Developer Intern",
+        "company":"Green Shield Canada",
+        "time":"May 2021 - August 2021",
+        "location":"Windsor, ON",
+        "points": [
+            {
+                "text":"Used <b>Oracle PL/SQL</b> to create Data Reports and Extracts"
+            },
+            {
+                "text":"Created automation scripts with <b>Python and JavaScript</b> to <b>reduce number of clicks required by 10</b> per report"
+            }
+        ]
+    },
+    {
+        "title":"Research Assistant/Web Developer",
+        "company":"University of Windsor",
+        "time":"June 2020 - Present",
+        "location":"Windsor, ON",
+        "points": [
+            {
+                "text":"Developing a <b>web application</b> for the analysis and presentation of experimental SAS data"
+            },
+            {
+                "text":"Achieved <b>100X faster compute time</b> of select elements"
+            },
+            {
+                "text":"Using <b>Flask, Bootstrap, NumPy, SciPy, and Matplotlib</b>"
+            }
+        ]
+    },
+    {
+        "title":"Teaching Assistant",
+        "company":"University of Windsor",
+        "time":"September 2020 - Present",
+        "location":"Windsor, ON",
+        "points": [
+            {
+                "text":"Responsible for lab instruction, marking, and holding office hours for <b>3 core undergraduate courses</b>"
+            }
+        ]
+    }    
+]

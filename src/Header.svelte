@@ -34,6 +34,7 @@
     .links {
         display: flex;
         justify-content: left;
+        padding-bottom: 15px;
     }
     .links > span {
         font-size: 12px;

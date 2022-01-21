@@ -1,13 +1,14 @@
 <script>
-	import Heading from './Heading.svelte';
-	import Column from './Column.svelte';
+	import Header from './Header.svelte';
+	import Left from './Left.svelte';
+	import Right from './Right.svelte';
 </script>
 
 <main>
-	<Heading></Heading>
-	<div style="display: flex;">
-		<Column ref="col1"></Column>
-		<Column ref="col2"></Column>	
+	<Header></Header>
+	<div style="display: flex; justify-content:space-between">
+		<Left ref="left"></Left>
+		<Right ref="right"></Right>	
 	</div>
 </main>
 
