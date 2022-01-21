@@ -49,9 +49,4 @@
     li {
         font-size: 12px;
     }
-    .break {
-        border:none;
-        border-top: 1px dashed #888;
-        margin: 10px 0px;
-    }
 </style>

@@ -45,8 +45,4 @@
     i.fa{
         padding-right: 3px;
     }
-    a{
-        text-decoration: none;
-        color: #000;
-    }
 </style>
