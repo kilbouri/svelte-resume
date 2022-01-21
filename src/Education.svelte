@@ -1,6 +1,6 @@
 
 <div class="education">
-    <h3>B.CS Computer Science (Honour)</h3>
+    <h3>B.CS Computer Science (Honours)</h3>
     <h4>University of Windsor</h4>
     <div class="info" style="width: 100%;">
         <span>
