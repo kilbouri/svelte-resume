@@ -1,6 +1,20 @@
 [
     {
         "title":"Software Developer Intern",
+        "company":"Assent Compliance Inc",
+        "time":"January 2022 - April 2022",
+        "location":"Ottawa, ON",
+        "points": [
+            {
+                "text":"Used <b>C# and .NET</b> to contribute to backend web services"
+            },
+            {
+                "text":"Used <b>Angular and SCSS</b> to contribute to frontend web services"
+            }
+        ]
+    },
+    {
+        "title":"Software Developer Intern",
         "company":"Green Shield Canada",
         "time":"May 2021 - August 2021",
         "location":"Windsor, ON",

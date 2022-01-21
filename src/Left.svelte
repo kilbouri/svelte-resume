@@ -8,12 +8,12 @@
 	    let jobs = await res.json();
     	return jobs;
 	}
-	const promise = getJobs();
+	const jobPromise = getJobs();
 </script>
 
 <div class={ref}>
 	<Title name="Experience"/>
-	{#await promise}
+	{#await jobPromise}
 		<p>Loading</p>
 	{:then jobs} 
 		{#each jobs as job}
