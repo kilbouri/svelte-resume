@@ -1,13 +1,12 @@
 {
-    "school":"University of Windsor",
-    "degree":"B.CS. Computer Science (Honours)",
-    "duration":"September 2019 - May 2023",
-    "points":[
-        {
-            "text":"<b>98.3%</b> Major Avg - <b>97.5%</b> Cumulative Avg"
+    "school": "University of Windsor",
+    "degree": "B.CS. Computer Science (Honours)",
+    "duration": "September 2019 - May 2023",
+    "points": [{
+            "text": "<b>98.3%</b> Major Avg - <b>97.5%</b> Cumulative Avg"
         },
         {
-            "text":"Recipient of the President's Scholarship, Eleanor Catherine Wallace Memorial Scholarship and Foresters Competitive Scholarship"
+            "text": "Recipient of the President's Scholarship, Eleanor Catherine Wallace Memorial Scholarship and Foresters Competitive Scholarship"
         }
     ]
 
