@@ -1,28 +1,43 @@
 <script>
-    export let job;
+    import Title from "./Title.svelte";
+	const getJobs = async () => {
+		let res = await fetch("./experience.json");
+	    let jobs = await res.json();
+    	return jobs;
+	}
+	const jobPromise = getJobs();
+    
 </script>
 
-
-<div class="job">
-    <h3>{job.title}</h3>
-    <h4>{job.company}</h4>
-    <div class="info" style="width: 100%;">
-        <span>
-            <i class="fa fa-calendar"></i>
-            {job.time}
-        </span>
-        <span>
-            <i class="fa fa-map-marker"></i>
-            {job.location}
-        </span>
-    </div>
-    <ul>
-    {#each job.points as point}
-        <li>- {@html point.text}</li>
-    {/each}
-    </ul>
+<div class="experience">
+    <Title name="Experience"/>
+    {#await jobPromise}
+        <p>Loading experience...</p>
+    {:then jobs} 
+        {#each jobs as job}
+        <div class="job">
+            <h3>{job.title}</h3>
+            <h4>{job.company}</h4>
+            <div class="info" style="width: 100%;">
+                <span>
+                    <i class="fa fa-calendar"></i>
+                    {job.time}
+                </span>
+                <span>
+                    <i class="fa fa-map-marker"></i>
+                    {job.location}
+                </span>
+            </div>
+            <ul>
+            {#each job.points as point}
+                <li>- {@html point.text}</li>
+            {/each}
+            </ul>
+        </div>
+        <div class="break"></div>        
+        {/each}
+    {/await}
 </div>
-<div class="break"></div>
 
 <style>
     h3{

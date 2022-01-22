@@ -1,27 +1,39 @@
-
-<h1>Jeremie Bornais</h1>
+<script>
+    const getInfo = async () => {
+        let res = await fetch("./header.json");
+        let info = await res.json();
+        return info;
+    }
+    const infoPromise = getInfo();
+</script>
+{#await infoPromise}
+    <p>Loading info...</p>
+{:then info} 
+<h1>{info.name}</h1>
 <div class="links">
     <span>
         <i class="fa fa-envelope"></i>
-        <a href="mailto:borna113@uwindsor.ca" target="_blank">borna113@uwindsor.ca</a>
+        <a href="mailto:{info.email}" target="_blank">{info.email}</a>
     </span>
     <span>
         <i class="fa fa-phone"></i>
-        <a href="tel:2263502944" target="_blank">(226) 350-2944</a>
+        {info.phone}
     </span>
     <span>
         <i class="fa fa-link"></i>
-        <a href="https://jeremie.bornais.ca" target="_blank">jeremie.bornais.ca</a>
+        <a href="https://{info.website}" target="_blank">{info.website}</a>
     </span>
     <span>
         <i class="fa fa-github"></i>
-        <a href="https://github.com/jere-mie" target="_blank">jere-mie</a>
+        <a href="https://github.com/{info.github}" target="_blank">{info.github}</a>
     </span>
     <span>
         <i class="fa fa-linkedin"></i>
-        <a href="https://linkedin.com/in/jeremie-bornais" target="_blank">jeremie-bornais</a>
+        <a href="https://linkedin.com/in/{info.linkedin}" target="_blank">{info.linkedin}</a>
     </span>
-</div>
+</div>    
+{/await}
+
 
 <style>
     h1{

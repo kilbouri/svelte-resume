@@ -17,11 +17,11 @@ h1 {
 	padding: 0;
 }
 
-.left {
+.column-1 {
 	width: 50%;
 }
 
-.right {
+.column-2 {
 	width: 45%;
 }
 

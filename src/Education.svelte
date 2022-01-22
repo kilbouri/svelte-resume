@@ -1,17 +1,34 @@
+<script>
+    import Title from './Title.svelte';
+
+    const getEdu = async () => {
+            let res = await fetch("./education.json");
+            let edu = await res.json();
+            return edu;
+        }
+    const eduPromise = getEdu();
+</script>
+
 
 <div class="education">
-    <h3>B.CS Computer Science (Honours)</h3>
-    <h4>University of Windsor</h4>
+    <Title name="Education"/>
+    {#await eduPromise}
+        <p>Loading education...</p>
+    {:then edu} 
+    <h3>{edu.degree}</h3>
+    <h4>{edu.school}</h4>
     <div class="info" style="width: 100%;">
         <span>
             <i class="fa fa-calendar"></i>
-            September 2019 - August 2023
+            {edu.duration}
         </span>
     </div>
     <ul>
-        <li>- <b>98.3%</b> Major Avg, <b>97.5%</b> Cumulative Avg</li>
-        <li>- Recipient of the President's Scholarship, Eleanor Catherine Wallace Memorial Scholarship and Foresters Competitive Scholarship</li>
-    </ul>
+        {#each edu.points as point}
+        <li>- {@html point.text}</li>
+        {/each}
+    </ul>        
+    {/await}
 </div>
 
 <style>

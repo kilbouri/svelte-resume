@@ -1,14 +1,19 @@
 <script>
 	import Header from './Header.svelte';
-	import Left from './Left.svelte';
-	import Right from './Right.svelte';
+	import Experience from "./Experience.svelte";
+	import Education from './Education.svelte';
+	import Projects from './Projects.svelte';
 </script>
 
+<Header />
 <main>
-	<Header></Header>
-	<div style="display: flex; justify-content:space-between">
-		<Left ref="left"></Left>
-		<Right ref="right"></Right>	
+	<div class="column-1">
+		<Experience />
+	</div>
+
+	<div class="column-2">
+		<Education />
+		<Projects />
 	</div>
 </main>
 
@@ -16,5 +21,7 @@
 	main {
 		margin: 0;
 		padding: 0;
+		display: flex;
+		justify-content: space-between
 	}
 </style>
