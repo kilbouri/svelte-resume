@@ -34,3 +34,45 @@ a{
 	text-decoration: none;
 	color: #000;
 }
+
+h3.primary-heading {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 5px 0px;
+}
+
+h4.secondary-heading {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 5px 0px;
+}
+
+.icon-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-row > span{
+	font-size: 12px;
+	padding-right: 20px;        
+}
+
+.point-text {
+	font-size: 12px;
+}
+
+.dotted-separator {
+	border:none;
+	border-top: 1px dashed #888;
+	margin: 10px 0px;
+}
+
+i {
+	margin-right: 3px;
+}
+
+ul {
+	padding-left: 0;
+	margin: 5px 0px;
+	list-style-type: none;
+}

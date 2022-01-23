@@ -16,9 +16,9 @@
     {:then jobs} 
         {#each jobs as job}
         <div class="job">
-            <h3>{job.title}</h3>
-            <h4>{job.company}</h4>
-            <div class="info" style="width: 100%;">
+            <h3 class="primary-heading">{job.title}</h3>
+            <h4 class="secondary-heading">{job.company}</h4>
+            <div class="icon-row" style="width: 100%;">
                 <span>
                     <i class="fa fa-calendar"></i>
                     {job.time}
@@ -30,53 +30,11 @@
             </div>
             <ul>
             {#each job.points as point}
-                <li>- {@html point.text}</li>
+                <li class="point-text">- {@html point.text}</li>
             {/each}
             </ul>
         </div>
-        <div class="break"></div>        
+        <div class="dotted-separator"></div>        
         {/each}
     {/await}
 </div>
-
-<style>
-    h3{
-        font-size: 16px;
-        font-weight: 400;
-        margin: 5px 0px;
-    }
-
-    h4{
-        font-size: 14px;
-        font-weight: 600;
-        margin: 5px 0px;
-    }
-
-    .info{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    i {
-        margin-right: 3px;
-    }
-
-    span{
-        font-size: 12px;
-        padding-right: 20px;        
-    }
-
-    ul {
-        padding-left: 0;
-        margin: 5px 0px;
-        list-style-type: none;
-    }
-    li {
-        font-size: 12px;
-    }
-    .break {
-        border:none;
-        border-top: 1px dashed #888;
-        margin: 10px 0px;
-    }
-</style>

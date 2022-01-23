@@ -15,9 +15,9 @@
     {#await eduPromise}
         <p>Loading education...</p>
     {:then edu} 
-    <h3>{edu.degree}</h3>
-    <h4>{edu.school}</h4>
-    <div class="info" style="width: 100%;">
+    <h3 class="primary-heading">{edu.degree}</h3>
+    <h4 class="secondary-heading">{edu.school}</h4>
+    <div class="icon-row" style="width: 100%;">
         <span>
             <i class="fa fa-calendar"></i>
             {edu.duration}
@@ -25,45 +25,8 @@
     </div>
     <ul>
         {#each edu.points as point}
-        <li>- {@html point.text}</li>
+        <li class="point-text">- {@html point.text}</li>
         {/each}
     </ul>        
     {/await}
 </div>
-
-<style>
-    h3{
-        font-size: 16px;
-        font-weight: 400;
-        margin: 5px 0px;
-    }
-
-    h4{
-        font-size: 14px;
-        font-weight: 600;
-        margin: 5px 0px;
-    }
-
-    .info{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    i {
-        margin-right: 3px;
-    }
-
-    span{
-        font-size: 12px;
-        padding-right: 20px;        
-    }
-
-    ul {
-        padding-left: 0;
-        margin: 5px 0px;
-        list-style-type: none;
-    }
-    li {
-        font-size: 12px;
-    }
-</style>

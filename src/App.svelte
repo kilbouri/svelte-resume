@@ -7,11 +7,11 @@
 
 <Header />
 <main>
-	<div class="column-1">
+	<div style="width: 50%">
 		<Experience />
 	</div>
 
-	<div class="column-2">
+	<div style="width: 45%;">
 		<Education />
 		<Projects />
 	</div>

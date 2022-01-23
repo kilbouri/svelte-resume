@@ -54,7 +54,4 @@
         padding-right: 15px;
     }
 
-    i.fa{
-        padding-right: 3px;
-    }
 </style>
