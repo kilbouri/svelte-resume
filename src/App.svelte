@@ -8,11 +8,11 @@
 <Header />
 <main>
 	<div style="width: 50%">
+		<Education />
 		<Experience />
 	</div>
 
 	<div style="width: 45%;">
-		<Education />
 		<Projects />
 	</div>
 </main>
