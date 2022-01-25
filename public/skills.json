@@ -1,0 +1,18 @@
+[
+    {
+        "type":"PROGRAMMING",
+        "list":"Python, Java, JavaScript, C++, SQL, HTML, CSS, C, Ruby"
+    },
+    {
+        "type":"TECHNOLOGIES",
+        "list":"Git, Linux, Flask, React Native, Svelte, Bootstrap, Firebase"
+    },
+    {
+        "type":"CLOUD",
+        "list":"Google Cloud Platform, DigitalOcean, Heroku"
+    },
+    {
+        "type":"LANGUAGES",
+        "list":"English, French (DELF B1 Certified)"
+    }
+]

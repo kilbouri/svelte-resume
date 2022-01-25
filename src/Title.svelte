@@ -8,6 +8,6 @@
     h1 {
         font-weight: 600;
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 </style>
