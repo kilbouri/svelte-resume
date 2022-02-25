@@ -1,11 +1,11 @@
 [
     {
         "type":"PROGRAMMING",
-        "list":"Python, Java, JavaScript, C++, SQL, HTML, CSS, C, Ruby"
+        "list":"Python, JavaScript, HTML, CSS, C++, SQL, Java, C, Ruby, SCSS"
     },
     {
         "type":"TECHNOLOGIES",
-        "list":"Git, Linux, Flask, React Native, Svelte, Bootstrap, Firebase"
+        "list":"Git, Linux, Flask, React Native, Angular, Svelte, Bootstrap, Firebase"
     },
     {
         "type":"CLOUD",

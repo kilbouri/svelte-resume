@@ -1,13 +1,11 @@
 [{
         "title": "Software Developer Intern",
         "company": "Assent Compliance Inc",
-        "time": "January 2022 - April 2022",
+        "time": "January 2022 - Present",
         "location": "Ottawa, ON",
-        "points": [{
-                "text": "Used <b>C# and .NET</b> to contribute to backend web services"
-            },
+        "points": [
             {
-                "text": "Used <b>Angular and SCSS</b> to contribute to frontend web services"
+                "text": "Used <b>Angular and SCSS</b> to develop and update front-end components, adhering to strict styling standards."
             }
         ]
     },

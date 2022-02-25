@@ -1,14 +1,14 @@
 [{
-        "title": "Domains Web Interface",
-        "link": "https://github.com/jere-mie/sans-analysis",
+        "title": "Automagic Websites",
+        "link": "https://github.com/jere-mie/automagic-websites",
         "points": [{
-                "text": "Full stack web app featuring <b>secure user authentication</b> and user file storage"
+                "text": "Full stack web app featuring <b>secure user authentication</b>"
             },
             {
-                "text": "Models SAS data using linear algebra for the UWindsor Department of Biochemistry"
+                "text": "Allows users to create, host, and export their own custom website"
             },
             {
-                "text": "Created using Python, Flask, SQLAlchemy, NumPy, SciPy, Bootstrap, Redis"
+                "text": "Created using <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
             }
         ]
     },
@@ -19,7 +19,7 @@
                 "text": "CSS Framework designed to be semantically similar, but more versatile than Bootstrap"
             },
             {
-                "text": "Based on <b>Flex Box</b> and <b>CSS Grid</b>"
+                "text": "Based on <b>FlexBox</b> and <b>CSS Grid</b>"
             },
             {
                 "text": "Fully <b>Mobile-Responsive</b> from scratch"

@@ -19,7 +19,7 @@ npm run dev
 
 Navigate to [localhost:8080](http://localhost:8080).
 
-## This is a Website, not a Resume!
+## This is a Website, not a Resume
 
 Yes, this is a website. BUT, it is also a resume. To turn this into an actual file, simply 'print' the webpage, and save to PDF!
 

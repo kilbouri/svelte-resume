@@ -5,11 +5,13 @@
 	import Skills from './Skills.svelte';
 	import Projects from './Projects.svelte';
 	import Extracurricular from './Extracurricular.svelte';
+	import Tiny from './Tiny.svelte'
 </script>
 
 <Header />
 <main>
 	<div style="width: 50%">
+		<Tiny/>
 		<Experience />
 		<Extracurricular />
 	</div>
