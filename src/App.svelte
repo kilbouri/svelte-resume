@@ -17,6 +17,7 @@
 	</div>
 
 	<div style="width: 45%;">
+		<div class="tiny-adjust"></div>
 		<Education />
 		<Skills />
 		<Projects />
