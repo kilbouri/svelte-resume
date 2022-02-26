@@ -5,7 +5,7 @@
                 "text": "Full stack web app featuring <b>secure user authentication</b>"
             },
             {
-                "text": "Allows users to create, host, and export their own custom website"
+                "text": "Allows users to create, host, and export their own simple website"
             },
             {
                 "text": "Created using <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
