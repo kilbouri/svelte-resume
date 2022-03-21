@@ -23,6 +23,9 @@
             {/each}
             </ul>
         </div>
+        {#if project != projects[projects.length - 1]}
+        <div class="dotted-separator"></div>            
+        {/if}
         {/each}
     {/await}
 </div>

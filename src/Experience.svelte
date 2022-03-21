@@ -34,7 +34,9 @@
             {/each}
             </ul>
         </div>
-        <div class="dotted-separator"></div>        
+        {#if job != jobs[jobs.length - 1]}
+        <div class="dotted-separator"></div>            
+        {/if}
         {/each}
     {/await}
 </div>
