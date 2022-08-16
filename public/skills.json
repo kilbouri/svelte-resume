@@ -1,18 +1,18 @@
 [
-    {
-        "type":"PROGRAMMING",
-        "list":"Python, JavaScript, C#, HTML, CSS, C++, SQL, Java, C, Ruby, SCSS"
-    },
-    {
-        "type":"TECHNOLOGIES",
-        "list":"Git, Linux, Flask, .NET Core, React Native, Angular, Svelte, Bootstrap, Firebase"
-    },
-    {
-        "type":"CLOUD",
-        "list":"Google Cloud Platform, DigitalOcean, Heroku"
-    },
-    {
-        "type":"LANGUAGES",
-        "list":"English, French (DELF B1 Certified)"
-    }
+  {
+    "type": "PROGRAMMING",
+    "list": "Python, JavaScript, Java, C#, HTML, CSS, C++, SQL, C, Ruby, SCSS"
+  },
+  {
+    "type": "TECHNOLOGIES",
+    "list": "Git, Linux, Flask, Spring Boot, .NET Core, React Native, Angular, Svelte, Bootstrap"
+  },
+  {
+    "type": "CLOUD",
+    "list": "Google Cloud Platform, Microsoft Azure, DigitalOcean, Heroku"
+  },
+  {
+    "type": "LANGUAGES",
+    "list": "English, French (DELF B1 Certified)"
+  }
 ]

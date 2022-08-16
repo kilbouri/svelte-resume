@@ -1,57 +1,62 @@
-[{
-        "title": "Automagic Websites",
-        "link": "https://github.com/jere-mie/automagic-websites",
-        "points": [{
-                "text": "Full stack web app featuring <b>secure user authentication</b>"
-            },
-            {
-                "text": "Allows users to create, host, and export their own simple website"
-            },
-            {
-                "text": "Created using <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
-            }
-        ]
-    },
-    {
-        "title": "Bornais.css",
-        "link": "https://github.com/jere-mie/bornais-css",
-        "points": [{
-                "text": "CSS Framework designed to be semantically similar, but more versatile than Bootstrap"
-            },
-            {
-                "text": "Based on <b>FlexBox</b> and <b>CSS Grid</b>"
-            },
-            {
-                "text": "Fully <b>Mobile-Responsive</b> from scratch"
-            }
-        ]
-    },
-    {
-        "title": "CS Student Calculator",
-        "link": "https://github.com/jere-mie/multiradix-calculator",
-        "points": [{
-                "text": "<b>JavaScript-based</b> web application designed to assist computer science students"
-            },
-            {
-                "text": "Allows conversion between different number bases, matrix multiplication, solving Ax=b relations, and much more"
-            },
-            {
-                "text": "Developed using JavaScript, Math.js, and Bootstrap"
-            }
-        ]
-    },
-    {
-        "title": "Certificate Generator",
-        "link": "https://github.com/jere-mie/certificate-generator",
-        "points": [{
-                "text": "Custom script built using <b>Google Apps Script</b> that allows for generating a large number of certificates with one button"
-            },
-            {
-                "text": "Used by BlackBerry, WinHacks, BorderHacks"
-            },
-            {
-                "text": "Saves event organizers <b>hours</b> of manual work"
-            }
-        ]
-    }
+[
+  {
+    "title": "Automagic Websites",
+    "link": "https://github.com/jere-mie/automagic-websites",
+    "points": [
+      {
+        "text": "Full stack web app featuring <b>secure user authentication</b>"
+      },
+      {
+        "text": "Allows users to create, host, and export their own simple website"
+      },
+      {
+        "text": "Created using <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
+      }
+    ]
+  },
+  {
+    "title": "Easy-MASM",
+    "link": "https://github.com/jere-mie/easy-masm",
+    "points": [
+      {
+        "text": "Automated system for assembling, linking, and executing <b>MASM32</b> programs"
+      },
+      {
+        "text": "Used by over <b>200 students</b>"
+      },
+      {
+        "text": "Created using <b>bash and batch</b>"
+      }
+    ]
+  },
+  {
+    "title": "UWindsor API",
+    "link": "https://github.com/jere-mie/uwindsor-api",
+    "points": [
+      {
+        "text": "<b>REST API</b> created to serve data related to the University of Windsor"
+      },
+      {
+        "text": "Serves course, staff, building, and holiday information"
+      },
+      {
+        "text": "Created using <b>Flask</b>"
+      }
+    ]
+  },
+  {
+    "title": "CS Student Calculator",
+    "link": "https://github.com/jere-mie/multiradix-calculator",
+    "points": [
+      {
+        "text": "<b>JavaScript-based</b> web application designed to assist computer science students"
+      },
+      {
+        "text": "Allows conversion between different number bases, matrix multiplication, solving Ax=b relations, and much more"
+      },
+      {
+        "text": "Developed using <b>JavaScript, Math.js, and Bootstrap</b>"
+      }
+    ]
+  }
 ]
