@@ -37,10 +37,10 @@
         "text": "<b>REST API</b> created to serve data related to the University of Windsor"
       },
       {
-        "text": "Serves course, staff, building, and holiday information"
+        "text": "Serves course, staff and building data"
       },
       {
-        "text": "Created using <b>Flask</b>"
+        "text": "Created using <b>Golang, Gin, and SQLX</b>"
       }
     ]
   },

@@ -1,11 +1,11 @@
 [
   {
     "type": "PROGRAMMING",
-    "list": "Python, JavaScript, Java, C#, HTML, CSS, C++, SQL, C, Ruby, SCSS"
+    "list": "Python, JavaScript, Go, Java, C#, HTML, CSS, C++, SQL, C, Ruby, SCSS"
   },
   {
     "type": "TECHNOLOGIES",
-    "list": "Git, Linux, Flask, Spring Boot, .NET Core, React Native, Angular, Svelte, Bootstrap"
+    "list": "Git, Linux, Flask, Spring Boot, Gin, .NET Core, React Native, Angular, Svelte, Bootstrap"
   },
   {
     "type": "CLOUD",
