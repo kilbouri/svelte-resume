@@ -16,7 +16,7 @@
     {:then extras} 
         <ul>
             {#each extras as extra}
-                <li class="point-text">- <b>{extra.title}</b> | {extra.description}</li>
+                <li class="point-text">- <b>{extra.title}</b>: {@html extra.description}</li>
             {/each}
         </ul>
     {/await}

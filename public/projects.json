@@ -45,17 +45,17 @@
     ]
   },
   {
-    "title": "CS Student Calculator",
-    "link": "https://github.com/jere-mie/multiradix-calculator",
+    "title": "UWindsor Discord Authentication",
+    "link": "https://github.com/jere-mie/uwin-discord-auth",
     "points": [
       {
-        "text": "<b>JavaScript-based</b> web application designed to assist computer science students"
+        "text": "Web interface to authenticate UWindsor students and add them to a Discord server"
       },
       {
-        "text": "Allows conversion between different number bases, matrix multiplication, solving Ax=b relations, and much more"
+        "text": "Uses <b>OAuth2</b> to prevent professors, staff, and non-students from joining"
       },
       {
-        "text": "Developed using <b>JavaScript, Math.js, and Bootstrap</b>"
+        "text": "Created using <b>Python, Flask, SQLAlchemy, and OAuth2</b>"
       }
     ]
   }
