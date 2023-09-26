@@ -48,7 +48,7 @@
     "location": "Windsor, ON",
     "points": [
       {
-        "text": "Developing a <b>web application</b> for the analysis and presentation of experimental SAS data"
+        "text": "Developed a <b>web application</b> for the analysis and presentation of experimental SAS data"
       },
       {
         "text": "Achieved <b>100X faster compute time</b> of select elements"
@@ -66,6 +66,9 @@
     "points": [
       {
         "text": "Responsible for lab instruction, marking, and holding office hours for <b>4 core undergraduate courses</b>"
+      },
+      {
+        "text": "Built and deployed a web application to automatically grade labs</b>"
       }
     ]
   }

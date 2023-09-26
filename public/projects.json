@@ -15,21 +15,6 @@
     ]
   },
   {
-    "title": "Easy-MASM",
-    "link": "https://github.com/jere-mie/easy-masm",
-    "points": [
-      {
-        "text": "Automated system for assembling, linking, and executing <b>MASM32</b> programs"
-      },
-      {
-        "text": "Used by over <b>200 students</b>"
-      },
-      {
-        "text": "Created using <b>bash and batch</b>"
-      }
-    ]
-  },
-  {
     "title": "UWindsor API",
     "link": "https://github.com/jere-mie/uwindsor-api",
     "points": [
@@ -45,17 +30,17 @@
     ]
   },
   {
-    "title": "UWindsor Discord Authentication",
-    "link": "https://github.com/jere-mie/uwin-discord-auth",
+    "title": "Easy-MASM",
+    "link": "https://github.com/jere-mie/easy-masm",
     "points": [
       {
-        "text": "Web interface to authenticate UWindsor students and add them to a Discord server"
+        "text": "Automated system for assembling, linking, and executing <b>MASM32</b> programs"
       },
       {
-        "text": "Uses <b>OAuth2</b> to prevent professors, staff, and non-students from joining"
+        "text": "Used by over <b>300 students</b>"
       },
       {
-        "text": "Created using <b>Python, Flask, SQLAlchemy, and OAuth2</b>"
+        "text": "Created using <b>bash and batch</b>"
       }
     ]
   }

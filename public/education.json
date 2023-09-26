@@ -1,13 +1,25 @@
-{
-  "school": "University of Windsor",
-  "degree": "Bachelors of Computer Science (Honours)",
-  "duration": "September 2019 - June 2023",
-  "points": [
-    {
-      "text": "<b>97.40%</b> Major Average, <b>97.45%</b> Cumulative Average"
-    },
-    {
-      "text": "Recipient of the President's Scholarship, Eleanor Catherine Wallace Memorial Scholarship, and Foresters Scholarship"
-    }
-  ]
-}
+[
+  {
+    "school": "Business Career College",
+    "degree": "Life License Qualification Program (LLQP)",
+    "duration": "August 2023 - Present",
+    "points": [
+      {
+        "text": "Currently enrolled in the LLQP program through Business Career College to obtain my Ontario life insurance license"
+      }
+    ]
+  },
+  {
+    "school": "University of Windsor",
+    "degree": "Bachelors of Computer Science (Honours)",
+    "duration": "September 2019 - October 2023",
+    "points": [
+      {
+        "text": "<b>97.40%</b> Major Average, <b>97.25%</b> Cumulative Average"
+      },
+      {
+        "text": "Recipient of the President's Scholarship, Eleanor Catherine Wallace Memorial Scholarship, and Foresters Scholarship"
+      }
+    ]
+  }
+]
