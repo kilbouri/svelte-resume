@@ -4,13 +4,13 @@
     "link": "https://github.com/jere-mie/automagic-websites",
     "points": [
       {
-        "text": "Full stack web app featuring <b>secure user authentication</b>"
+        "text": "Full stack web app featuring <b>user authentication</b>"
       },
       {
         "text": "Allows users to create, host, and export their own simple website"
       },
       {
-        "text": "Created using <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
+        "text": "Made with <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
       }
     ]
   },
@@ -25,7 +25,7 @@
         "text": "Serves course, staff and building data"
       },
       {
-        "text": "Created using <b>Golang, Gin, and SQLX</b>"
+        "text": "Made with <b>Golang, Gin, and SQLX</b>"
       }
     ]
   },
@@ -40,7 +40,7 @@
         "text": "Used by over <b>300 students</b>"
       },
       {
-        "text": "Created using <b>bash and batch</b>"
+        "text": "Made with <b>bash and batch</b>"
       }
     ]
   }

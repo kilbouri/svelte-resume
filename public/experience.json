@@ -16,7 +16,7 @@
   {
     "title": "Software Developer Intern",
     "company": "Assent Inc.",
-    "time": "January 2022 - May 2022",
+    "time": "January 2022 - April 2022",
     "location": "Ottawa, ON",
     "points": [
       {
@@ -35,14 +35,11 @@
     "points": [
       {
         "text": "Used <b>Oracle PL/SQL</b> to create Data Reports and Extracts"
-      },
-      {
-        "text": "Streamlined report generation by <b>90%</b> using <b>Python and JS</b>"
       }
     ]
   },
   {
-    "title": "Research Assistant/Web Developer",
+    "title": "Research Software Developer",
     "company": "University of Windsor",
     "time": "June 2020 - April 2023",
     "location": "Windsor, ON",
@@ -68,7 +65,7 @@
         "text": "Responsible for lab instruction, marking, and holding office hours for <b>4 core undergraduate courses</b>"
       },
       {
-        "text": "Built and deployed a web application to automatically grade labs</b>"
+        "text": "<b>Built and deployed a web application</b> that grades assignments</b>"
       }
     ]
   }
