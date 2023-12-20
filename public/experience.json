@@ -6,7 +6,7 @@
     "location": "Toronto, ON",
     "points": [
       {
-        "text": "Created and deployed a <b>GraphQL</b> API using <b>Java, Spring Boot, and PostgreSQL</b>"
+        "text": "Created and deployed a <b>GraphQL</b> API using <b>Java, Spring Boot, and PostgreSQL</b> for a personal budgeting mobile app."
       },
       {
         "text": "Used <b>GitHub Actions</b> to set up automated <b>CI/CD</b> workflows."
