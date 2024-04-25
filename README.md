@@ -1,23 +1,19 @@
-# Svelte-Resume
+# svelte-resume
 
-Resume for Jeremie Bornais, created in Svelte.
+> **Svelte**: from French *svelte*, "slim, slender"
+> 
+> **Resume**: from French *résumé*, "a summary, summing up, recapitulation"
+
+Resume for Isaac Kilbourne, created in Svelte.
 
 ## Get started
 
-Install the dependencies...
+This project uses [Bun](bun.sh), so you will need to [install Bun](https://bun.sh/) if you have not already.
 
-```bash
-cd resume
-npm install
-```
+Then just two commands:
 
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:8080](http://localhost:8080).
+1. `bun install` to install dependencies
+2. `bun run dev` to run a development server
 
 ## This is a Website, not a Resume
 
