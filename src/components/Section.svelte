@@ -2,8 +2,11 @@
   export let name: string;
 </script>
 
-<h1>{name}</h1>
-<hr />
+<div class={name}>
+  <h1>{name || ""}</h1>
+  <hr />
+  <slot />
+</div>
 
 <style>
   h1 {

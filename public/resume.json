@@ -1,0 +1,192 @@
+{
+    "$schema": "resume.schema.json",
+    "info": {
+        "name": "Jeremie Bornais",
+        "email": "jeremiejbornais@gmail.com",
+        "phone": "(226) 350-2944",
+        "website": "jeremie.bornais.ca",
+        "github": "jere-mie",
+        "linkedin": "jeremie-bornais"
+    },
+    "tiny_text": "Bachelors of Computer Science (Honours), University of Windsor, September 2019 - October 2023, 97.25% GPA",
+    "education": [
+        {
+            "location": "University of Windsor",
+            "certification": "Bachelors of Computer Science (Honours)",
+            "start": "September 2019",
+            "end": "October 2023",
+            "details": [
+                "<b>97.40%</b> Major Average, <b>97.25%</b> Cumulative Average",
+                "Recipient of the President's Scholarship, Eleanor Catherine Wallace Memorial Scholarship, and Foresters Scholarship"
+            ]
+        },
+        {
+            "location": "Business Career College",
+            "certification": "Life License Qualification Program (LLQP)",
+            "start": "August 2023",
+            "end": "October 2023",
+            "details": [
+                "Completed the LLQP program to obtain my Ontario Life Insurance and Accident & Sickness Insurance licenses"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "title": "Software Engineer Intern",
+            "company": "Publicis Sapient",
+            "start": "June 2022",
+            "end": "August 2022",
+            "location": "Toronto, ON",
+            "details": [
+                "Created and deployed a <b>GraphQL</b> API using <b>Java, Spring Boot, and PostgreSQL</b> for a personal budgeting mobile app.",
+                "Used <b>GitHub Actions</b> to set up automated <b>CI/CD</b> workflows."
+            ]
+        },
+        {
+            "title": "Software Developer Intern",
+            "company": "Assent Inc.",
+            "start": "January 2022",
+            "end": "April 2022",
+            "location": "Ottawa, ON",
+            "details": [
+                "Used <b>Angular and SCSS</b> to create and update front-end components, adhering to strict styling standards.",
+                "Used <b>C# and .NET Core</b> to create API endpoints, unit tests, component tests, and integration tests."
+            ]
+        },
+        {
+            "title": "Software Developer Intern",
+            "company": "Green Shield Canada",
+            "start": "May 2021",
+            "end": "August 2021",
+            "location": "Windsor, ON",
+            "details": [
+                "Used <b>Oracle PL/SQL</b> to create Data Reports and Extracts"
+            ]
+        },
+        {
+            "title": "Research Software Developer",
+            "company": "University of Windsor",
+            "start": "June 2020",
+            "end": "April 2023",
+            "location": "Windsor, ON",
+            "details": [
+                "Developed a <b>web application</b> for the analysis and presentation of experimental SAS data",
+                "Achieved <b>100X faster compute time</b> of select elements",
+                "Using <b>Flask, Bootstrap, NumPy, SciPy, and Matplotlib</b>"
+            ]
+        },
+        {
+            "title": "Teaching Assistant",
+            "company": "University of Windsor",
+            "start": "September 2020",
+            "end": "June 2023",
+            "location": "Windsor, ON",
+            "details": [
+                "Responsible for lab instruction, marking, and holding office hours for <b>4 core undergraduate courses</b>",
+                "<b>Built and deployed a web application</b> that grades assignments</b>"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Programming",
+            "items": [
+                "Python",
+                "JavaScript",
+                "Go",
+                "Java",
+                "C#",
+                "HTML",
+                "CSS",
+                "SCSS",
+                "C++",
+                "SQL",
+                "C",
+                "Ruby"
+            ]
+        },
+        {
+            "category": "Frameworks",
+            "items": [
+                "Flask",
+                "React Native",
+                "Svelte",
+                "Angular",
+                "React.js",
+                "Gin",
+                ".NET Core",
+                "Spring Boot",
+                "Bootstrap",
+                "Ruby on Rails"
+            ]
+        },
+        {
+            "category": "Technologies",
+            "items": [
+                "Git",
+                "Linux",
+                "Docker",
+                "Caddy Server",
+                "GraphQL",
+                "REST API",
+                "OAuth2",
+                "CI/CD",
+                "GitHub Actions"
+            ]
+        },
+        {
+            "category": "Cloud",
+            "items": [
+                "Google Cloud Platform",
+                "Microsoft Azure",
+                "DigitalOcean",
+                "Heroku"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Automagic Websites",
+            "link": "https://github.com/jere-mie/automagic-websites",
+            "details": [
+                "Full stack web application featuring <b>user authentication</b>",
+                "Allows users to <b>create, host, and export</b> their own personal website",
+                "Made with <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
+            ]
+        },
+        {
+            "title": "UWindsor API",
+            "link": "https://github.com/jere-mie/uwindsor-api",
+            "details": [
+                "<b>REST API</b> created to enable developers to create applications for the UWindsor community",
+                "Serves course, staff and building data related to the University of Windsor",
+                "Made with <b>Go, Gin, and SQLX</b>"
+            ]
+        },
+        {
+            "title": "Easy-MASM",
+            "link": "https://github.com/jere-mie/easy-masm",
+            "details": [
+                "Automated system for assembling, linking, and executing <b>MASM32</b> programs",
+                "Used by over <b>500 students</b>",
+                "Made with <b>Docker, bash and batch</b>"
+            ]
+        }
+    ],
+    "extracurricular": [
+        {
+            "title": "President",
+            "description": "Led a team of 20 volunteers to create applications, organize events, and represent over 900 undergraduate students (2021-2023)"
+        },
+        {
+            "title": "Co-Founder and Technical Lead",
+            "description": "MLH Hackathon (winhacks.ca) (2020-2022)",
+            "location": "WinHacks"
+        },
+        {
+            "title": "Co-Founder and Technical Lead",
+            "description": "MLH Hackathon (borderhacks.com) (2020-2021)",
+            "location": "BorderHacks"
+        }
+    ]
+}

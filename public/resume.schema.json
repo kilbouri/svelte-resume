@@ -1,0 +1,192 @@
+{
+    "$comment": "Schema for resume.json",
+    "properties": {
+        "education": {
+            "items": {
+                "properties": {
+                    "certification": {
+                        "description": "The name of the certification, such as 'Bachelors of Computer Science (Honours)'",
+                        "type": "string"
+                    },
+                    "details": {
+                        "$ref": "#/definitions/array[string]",
+                        "description": "Extra information about the education/certification"
+                    },
+                    "end": {
+                        "description": "The month/year you finished receiving education",
+                        "type": "string"
+                    },
+                    "location": {
+                        "description": "Where the education was received, such as a university or bootcamp",
+                        "type": "string"
+                    },
+                    "start": {
+                        "description": "The month/year you started receiving education",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "location",
+                    "certification",
+                    "start"
+                ],
+                "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+        },
+        "experience": {
+            "items": {
+                "properties": {
+                    "company": {
+                        "description": "The company you worked for",
+                        "type": "string"
+                    },
+                    "details": {
+                        "$ref": "#/definitions/array[string]",
+                        "description": "Extra information about the experience, such as tools used or quantative improvements made"
+                    },
+                    "end": {
+                        "description": "When you ended",
+                        "type": "string"
+                    },
+                    "location": {
+                        "description": "The location you worked from",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "The title you held",
+                        "type": "string"
+                    },
+                    "start": {
+                        "description": "When you started",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "company",
+                    "details",
+                    "start",
+                    "title"
+                ],
+                "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+        },
+        "extracurricular": {
+            "items": {
+                "properties": {
+                    "description": {
+                        "description": "Description of the extracurricular activity",
+                        "type": "string"
+                    },
+                    "location": {
+                        "description": "Location of the extracurricular activity",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "Title of the extracurricular activity",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "title",
+                    "description"
+                ],
+                "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+        },
+        "info": {
+            "description": "The most important information on your resume, such as name and contact.",
+            "properties": {
+                "email": {
+                    "description": "Your email address",
+                    "type": "string"
+                },
+                "github": {
+                    "description": "Your GitHub profile name",
+                    "type": "string"
+                },
+                "linkedin": {
+                    "description": "Your LinkedIn profile name",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "Your full name",
+                    "type": "string"
+                },
+                "phone": {
+                    "description": "Your phone number",
+                    "type": "string"
+                },
+                "website": {
+                    "description": "Your website. It is recommended you do not include http(s)://, for readability.",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "email"
+            ],
+            "type": "object"
+        },
+        "projects": {
+            "items": {
+                "properties": {
+                    "details": {
+                        "$ref": "#/definitions/array[string]",
+                        "description": "Details about the project, such as which technologies you used."
+                    },
+                    "link": {
+                        "description": "Link to the project. If possible, the link should point to a live demo.",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "The title of the project.",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "title",
+                    "details"
+                ],
+                "type": "object"
+            },
+            "minItems": 1,
+            "type": "array"
+        },
+        "skills": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "category": {
+                        "type": "string",
+                        "description": "The name of the skill category. For example, 'Languages'"
+                    },
+                    "items": {
+                        "$ref": "#/definitions/array[string]",
+                        "description": "The items in the skill category. For example, Java, C++, Python"
+                    }
+                }
+            },
+            "minItems": 1
+        },
+        "tiny_text": {
+            "description": "This text is imprinted near the top of the resume in tiny white text. Can be useful to optimize for automated systems.",
+            "type": "string"
+        }
+    },
+    "definitions": {
+        "array[string]": {
+            "default": [],
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        }
+    }
+}
