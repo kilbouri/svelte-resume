@@ -33,8 +33,6 @@
         <Extracurricular items={data.extracurricular} />
       </Section>
     {/if}
-
-    <!--<Extracurricular /> -->
   </div>
 
   <div style="width: 45%;">

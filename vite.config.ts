@@ -4,5 +4,5 @@ import { jsonX } from "vite-plugin-jsonx";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [svelte(), jsonX()],
+  plugins: [svelte()],
 });
