@@ -15,16 +15,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out repo
         uses: actions/checkout@v2
-      # Node is required for npm
-      - name: Set up Node
-        uses: actions/setup-node@v2
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: "16.15.1"
+          bun-version: "1.1.4"
+
       # Install and build Docusaurus website
       - name: Build Resume
         run: |
-          npm install
-          npm run build
+          bun install
+          bun run build
+
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
