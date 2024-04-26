@@ -1,8 +1,8 @@
 import "./global.css";
-import App from "./App.svelte";
+import Resume from "./Resume.svelte";
 
-const app = new App({
+const resume = new Resume({
   target: document.getElementById("app")!,
 });
 
-export default app;
+export default resume;

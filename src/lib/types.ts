@@ -27,8 +27,8 @@ export interface Experience {
 
 export interface Extracurricular {
   title: string;
-  location: string;
   description: string;
+  location?: string;
 }
 
 export interface Info {

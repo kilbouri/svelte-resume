@@ -10,7 +10,8 @@
   import Skills from "./components/sections/Skills.svelte";
   import Projects from "./components/sections/Projects.svelte";
 
-  export let data: Resume;
+  // Import resume data
+  import data from "./resume.json";
 </script>
 
 <Header info={data.info}></Header>
