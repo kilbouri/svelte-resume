@@ -1,192 +1,174 @@
 {
     "$schema": "resume.schema.json",
     "info": {
-        "name": "Jeremie Bornais",
-        "email": "jeremiejbornais@gmail.com",
-        "phone": "(226) 350-2944",
-        "website": "jeremie.bornais.ca",
-        "github": "jere-mie",
-        "linkedin": "jeremie-bornais"
+        "name": "Isaac Kilbourne",
+        "email": "isaac@kilbourne.ca",
+        "website": "isaac.kilbourne.ca",
+        "github": "kilbouri",
+        "linkedin": "kilbouri"
     },
-    "tiny_text": "Bachelors of Computer Science (Honours), University of Windsor, September 2019 - October 2023, 97.25% GPA",
+    "tiny_text": "Bachelors of Computer Science (Honours) with Mathematics Minor, University of Windsor (September 2020 - April 2024)",
     "education": [
         {
             "location": "University of Windsor",
             "certification": "Bachelors of Computer Science (Honours)",
-            "start": "September 2019",
-            "end": "October 2023",
+            "start": "September 2020",
+            "end": "April 2024",
             "details": [
-                "<b>97.40%</b> Major Average, <b>97.25%</b> Cumulative Average",
-                "Recipient of the President's Scholarship, Eleanor Catherine Wallace Memorial Scholarship, and Foresters Scholarship"
-            ]
-        },
-        {
-            "location": "Business Career College",
-            "certification": "Life License Qualification Program (LLQP)",
-            "start": "August 2023",
-            "end": "October 2023",
-            "details": [
-                "Completed the LLQP program to obtain my Ontario Life Insurance and Accident & Sickness Insurance licenses"
+                "Minor in Mathematics",
+                "Achieved Dean's Honour Roll in every year",
+                "Topics covered include data structures, algorithm design, computer networking, and operating systems"
             ]
         }
     ],
     "experience": [
         {
-            "title": "Software Engineer Intern",
-            "company": "Publicis Sapient",
-            "start": "June 2022",
-            "end": "August 2022",
-            "location": "Toronto, ON",
-            "details": [
-                "Created and deployed a <b>GraphQL</b> API using <b>Java, Spring Boot, and PostgreSQL</b> for a personal budgeting mobile app.",
-                "Used <b>GitHub Actions</b> to set up automated <b>CI/CD</b> workflows."
-            ]
-        },
-        {
-            "title": "Software Developer Intern",
-            "company": "Assent Inc.",
-            "start": "January 2022",
-            "end": "April 2022",
-            "location": "Ottawa, ON",
-            "details": [
-                "Used <b>Angular and SCSS</b> to create and update front-end components, adhering to strict styling standards.",
-                "Used <b>C# and .NET Core</b> to create API endpoints, unit tests, component tests, and integration tests."
-            ]
-        },
-        {
-            "title": "Software Developer Intern",
-            "company": "Green Shield Canada",
-            "start": "May 2021",
-            "end": "August 2021",
-            "location": "Windsor, ON",
-            "details": [
-                "Used <b>Oracle PL/SQL</b> to create Data Reports and Extracts"
-            ]
-        },
-        {
-            "title": "Research Software Developer",
-            "company": "University of Windsor",
-            "start": "June 2020",
+            "title": "Full-Stack Software Developer Intern",
+            "company": "Purolator Digital Lab",
+            "location": "Kitchener, ON",
+            "start": "May 2022",
             "end": "April 2023",
-            "location": "Windsor, ON",
             "details": [
-                "Developed a <b>web application</b> for the analysis and presentation of experimental SAS data",
-                "Achieved <b>100X faster compute time</b> of select elements",
-                "Using <b>Flask, Bootstrap, NumPy, SciPy, and Matplotlib</b>"
+                "Used <b>React</b> and <b>Bootstrap</b> to implement <b>IoT</b> device monitoring portal",
+                "Created <b>REST</b> and <b>GraphQL</b> APIs with <b>Microsoft Azure</b>",
+                "Developed <b>CI/CD</b> pipelines using <b>Azure Pipelines</b> to provision infrastructure with <b>Hashicorp Terraform</b>, build, test, and deploy systems",
+                "Deployed IoT solution to improve efficiency in Purolator sorting facilities",
+                "Users stated strong prefererence of new IoT solution"
             ]
         },
         {
-            "title": "Teaching Assistant",
-            "company": "University of Windsor",
-            "start": "September 2020",
-            "end": "June 2023",
+            "title": "Software Developer",
+            "company": "University of Windsor Computer Science Society",
             "location": "Windsor, ON",
+            "start": "February 2021",
+            "end": "April 2022",
             "details": [
-                "Responsible for lab instruction, marking, and holding office hours for <b>4 core undergraduate courses</b>",
-                "<b>Built and deployed a web application</b> that grades assignments</b>"
+                "Developed features for an open-source Discord bot written in <b>Ruby</b> with DiscordRB",
+                "Collaborated on a rewrite of the above bot using <b>TypeScript</b> and Discord.JS",
+                "Worked in a team to create a wiki for computer science students using <b>Docusaurus</b>"
+            ]
+        },
+        {
+            "title": "Programming Team & Lead Programmer",
+            "company": "FIRST Robotics Team 7058 - StrathDroids",
+            "location": "Strathroy, ON",
+            "start": "March 2018",
+            "end": "July 2019",
+            "details": [
+                "Led a team of 4 to program a robot for the Destination: Deep Space season using <b>Java</b> (2019)",
+                "Worked in a team of 3 to program a robot in <b>Java</b> which <b>won at the regional level</b> for the First Power Up! season (2018)"
             ]
         }
     ],
     "skills": [
         {
-            "category": "Programming",
+            "category": "Languages",
             "items": [
+                "C",
+                "C++",
+                "C#",
                 "Python",
                 "JavaScript",
-                "Go",
+                "TypeScript",
                 "Java",
-                "C#",
-                "HTML",
+                "HTML5",
                 "CSS",
                 "SCSS",
-                "C++",
-                "SQL",
-                "C",
-                "Ruby"
+                "SQL"
             ]
         },
         {
-            "category": "Frameworks",
+            "category": "Front-end",
             "items": [
-                "Flask",
-                "React Native",
+                "React",
                 "Svelte",
-                "Angular",
-                "React.js",
-                "Gin",
-                ".NET Core",
-                "Spring Boot",
                 "Bootstrap",
-                "Ruby on Rails"
+                "TailwindCSS"
             ]
         },
         {
-            "category": "Technologies",
+            "category": "Back-end",
+            "items": [
+                "NodeJS",
+                "Bun",
+                "Express",
+                "Azure Functions",
+                "MongoDB",
+                "PostgreSQL",
+                "Redis",
+                "SQLite"
+            ]
+        },
+        {
+            "category": "Tools",
             "items": [
                 "Git",
-                "Linux",
+                "VS Code",
+                "Eclipse",
                 "Docker",
-                "Caddy Server",
-                "GraphQL",
-                "REST API",
-                "OAuth2",
-                "CI/CD",
+                "Hashicorp Terraform",
+                "Azure DevOps",
+                "Azure Pipelines",
                 "GitHub Actions"
             ]
         },
         {
-            "category": "Cloud",
+            "category": "Platforms",
             "items": [
+                "Windows",
+                "Linux",
                 "Google Cloud Platform",
-                "Microsoft Azure",
-                "DigitalOcean",
-                "Heroku"
+                "Microsoft Azure"
             ]
         }
     ],
     "projects": [
         {
-            "title": "Automagic Websites",
-            "link": "https://github.com/jere-mie/automagic-websites",
+            "title": "Terminal-3D",
+            "link": "https://github.com/kilbouri/terminal-3d",
             "details": [
-                "Full stack web application featuring <b>user authentication</b>",
-                "Allows users to <b>create, host, and export</b> their own personal website",
-                "Made with <b>Python, Flask, SQLAlchemy, Bootstrap</b>"
+                "Realtime 3D viewer written in <b>C</b> for Linux terminals",
+                "Developed a <b>custom graphics API</b> which uses ASCII characters to create a canvas-like environment in a terminal",
+                "Wrote custom functions to load 3D mesh data from STL files",
+                "Learned and implemented the math behind 3D perspective rendering to draw and shade models"
             ]
         },
         {
-            "title": "UWindsor API",
-            "link": "https://github.com/jere-mie/uwindsor-api",
+            "title": "Passman",
+            "link": "https://github.com/chorman0773/comp3340-passman",
             "details": [
-                "<b>REST API</b> created to enable developers to create applications for the UWindsor community",
-                "Serves course, staff and building data related to the University of Windsor",
-                "Made with <b>Go, Gin, and SQLX</b>"
+                "A password manager that uses <b>end-to-end encryption</b> to ensure only the user can view their data",
+                "Designed so that not even the servers running Passman are ever able to view a user's data"
             ]
         },
         {
-            "title": "Easy-MASM",
-            "link": "https://github.com/jere-mie/easy-masm",
+            "title": "isaac.kilbourne.ca",
+            "link": "https://isaac.kilbourne.ca",
             "details": [
-                "Automated system for assembling, linking, and executing <b>MASM32</b> programs",
-                "Used by over <b>500 students</b>",
-                "Made with <b>Docker, bash and batch</b>"
+                "Created responsive mobile-first website with <b>Bootstrap</b>, <b>Animate.CSS</b>, and <b>Wow.JS</b> in plain <b>HTML5</b> and <b>CSS</b>",
+                "Designed a theme system with persistence using <b>JavaScript</b>",
+                "Used GitHub <b>REST API</b> to fetch an up-to-date list of projects on page load"
+            ]
+        },
+        {
+            "title": "svelte-resume",
+            "link": "https://github.com/kilbouri/svelte-resume",
+            "details": [
+                "Used <b>Svelte</b> to create a website which, when printed, doubles as a resume",
+                "Utilized <b>JSON</b> to allow easy customization and archiving of resume contents"
             ]
         }
     ],
     "extracurricular": [
         {
-            "title": "President",
-            "description": "Led a team of 20 volunteers to create applications, organize events, and represent over 900 undergraduate students (2021-2023)"
+            "title": "Teaching Assistant",
+            "location": "University of Windsor",
+            "description": "Lead labs and provided valuable feedback on students' assignments to guide students to success (2021, 2022)"
         },
         {
-            "title": "Co-Founder and Technical Lead",
-            "description": "MLH Hackathon (winhacks.ca) (2020-2022)",
-            "location": "WinHacks"
-        },
-        {
-            "title": "Co-Founder and Technical Lead",
-            "description": "MLH Hackathon (borderhacks.com) (2020-2021)",
-            "location": "BorderHacks"
+            "title": "Advent of Code",
+            "location": "University of Windsor",
+            "description": "Ranked first among all students (2020, 2021)"
         }
     ]
 }

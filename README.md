@@ -4,7 +4,7 @@
 > 
 > **Resume**: from French *résumé*, "a summary, summing up, recapitulation"
 
-Resume for Jeremie Bornais, created in Svelte.
+Resume for Isaac Kilbourne, created in Svelte.
 
 ## Get started
 
