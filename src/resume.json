@@ -17,7 +17,7 @@
             "details": [
                 "Minor in Mathematics",
                 "Achieved Dean's Honour Roll in every year",
-                "Topics covered include data structures, algorithm design, computer networking, and operating systems"
+                "Topics covered include web design, data structures, algorithm design, computer networking, and operating systems"
             ]
         }
     ],
@@ -29,8 +29,8 @@
             "start": "May 2022",
             "end": "April 2023",
             "details": [
-                "Used <b>React</b> and <b>Bootstrap</b> to implement <b>IoT</b> device monitoring portal",
-                "Created <b>REST</b> and <b>GraphQL</b> APIs with <b>Microsoft Azure</b>",
+                "Used <b>React</b> and <b>Bootstrap</b> to implement <b>IoT</b> device monitoring front-end",
+                "Created backend <b>REST</b> and <b>GraphQL</b> APIs with <b>Microsoft Azure</b>",
                 "Developed <b>CI/CD</b> pipelines using <b>Azure Pipelines</b> to provision infrastructure with <b>Hashicorp Terraform</b>, build, test, and deploy systems",
                 "Deployed IoT solution to improve efficiency in Purolator sorting facilities",
                 "Users stated strong prefererence of new IoT solution"
@@ -68,6 +68,7 @@
                 "C++",
                 "C#",
                 "Python",
+                "Lua",
                 "JavaScript",
                 "TypeScript",
                 "Java",
@@ -82,6 +83,7 @@
             "items": [
                 "React",
                 "Svelte",
+                "SvelteKit",
                 "Bootstrap",
                 "TailwindCSS"
             ]
@@ -124,21 +126,12 @@
     ],
     "projects": [
         {
-            "title": "Terminal-3D",
-            "link": "https://github.com/kilbouri/terminal-3d",
-            "details": [
-                "Realtime 3D viewer written in <b>C</b> for Linux terminals",
-                "Developed a <b>custom graphics API</b> which uses ASCII characters to create a canvas-like environment in a terminal",
-                "Wrote custom functions to load 3D mesh data from STL files",
-                "Learned and implemented the math behind 3D perspective rendering to draw and shade models"
-            ]
-        },
-        {
             "title": "Passman",
             "link": "https://github.com/chorman0773/comp3340-passman",
             "details": [
                 "A password manager that uses <b>end-to-end encryption</b> to ensure only the user can view their data",
-                "Designed so that not even the servers running Passman are ever able to view a user's data"
+                "Designed so that not even the servers running Passman are ever able to view a user's data",
+                "Developed a <b>SvelteKit</b> front-end and Rust backend"
             ]
         },
         {
@@ -157,6 +150,16 @@
                 "Used <b>Svelte</b> to create a website which, when printed, doubles as a resume",
                 "Utilized <b>JSON</b> to allow easy customization and archiving of resume contents"
             ]
+        },
+        {
+            "title": "Terminal-3D",
+            "link": "https://github.com/kilbouri/terminal-3d",
+            "details": [
+                "Realtime 3D viewer written in <b>C</b> for Linux terminals",
+                "Developed a 3D engine which uses ASCII characters to create a canvas-like environment in a terminal",
+                "Wrote functions to load 3D mesh data from STL files, perform 3D perspective rendering and shading",
+                "Problem-solved and optimized around terminal output bottleneck"
+            ]
         }
     ],
     "extracurricular": [
@@ -168,7 +171,7 @@
         {
             "title": "Advent of Code",
             "location": "University of Windsor",
-            "description": "Ranked first among all students (2020, 2021)"
+            "description": "Completed all challenges and ranked first among all students (2020, 2021)"
         }
     ]
 }
