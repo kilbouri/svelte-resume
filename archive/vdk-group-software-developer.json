@@ -30,7 +30,7 @@
             "end": "April 2023",
             "details": [
                 "Used <b>React</b> and <b>Bootstrap</b> to implement <b>IoT</b> device monitoring front-end",
-                "Created backend <b>REST</b> and <b>GraphQL</b> APIs with <b>Microsoft Azure</b> and <b>.NET</b>",
+                "Created backend <b>REST</b> and <b>GraphQL</b> APIs with <b>Microsoft Azure</b>",
                 "Developed <b>CI/CD</b> pipelines using <b>Azure Pipelines</b> to provision infrastructure with <b>Hashicorp Terraform</b>, build, test, and deploy systems",
                 "Deployed IoT solution to improve efficiency in Purolator sorting facilities",
                 "Users stated strong prefererence of new IoT solution"
@@ -126,15 +126,6 @@
     ],
     "projects": [
         {
-            "title": "StudentSync",
-            "link": "https://github.com/kilbouri/student-sync",
-            "details": [
-                "A <b>C++ 20</b> client/server application that enables educators to remotely view the screens of their students",
-                "Server supports multiple concurrent clients via threading",
-                "Utilized <b>TCP/IP</b> and FFmpeg to send H.264-encoded images from clients to the server"
-            ]
-        },
-        {
             "title": "Passman",
             "link": "https://github.com/chorman0773/comp3340-passman",
             "details": [
@@ -153,13 +144,21 @@
             ]
         },
         {
+            "title": "svelte-resume",
+            "link": "https://github.com/kilbouri/svelte-resume",
+            "details": [
+                "Used <b>Svelte</b> to create a website which, when printed, doubles as a resume",
+                "Utilized <b>JSON</b> to allow easy customization and archiving of resume contents"
+            ]
+        },
+        {
             "title": "Terminal-3D",
             "link": "https://github.com/kilbouri/terminal-3d",
             "details": [
                 "Realtime 3D viewer written in <b>C</b> for Linux terminals",
                 "Developed a 3D engine which uses ASCII characters to create a canvas-like environment in a terminal",
-                "Wrote routines to load 3D mesh data from STL files, perform 3D perspective rendering and shading",
-                "Problem-solved and optimized around terminal throughput bottleneck"
+                "Wrote functions to load 3D mesh data from STL files, perform 3D perspective rendering and shading",
+                "Problem-solved and optimized around terminal output bottleneck"
             ]
         }
     ],

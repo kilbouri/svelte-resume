@@ -1,6 +1,4 @@
 <script lang="ts">
-  import type { Resume } from "./lib/types";
-
   import Header from "./components/Header.svelte";
   import Tiny from "./components/Tiny.svelte";
   import Section from "./components/Section.svelte";
@@ -28,9 +26,9 @@
       </Section>
     {/if}
 
-    {#if data.extracurricular}
-      <Section name="Extracurricular">
-        <Extracurricular items={data.extracurricular} />
+    {#if data.skills}
+      <Section name="Skills">
+        <Skills items={data.skills} />
       </Section>
     {/if}
   </div>
@@ -42,15 +40,15 @@
       </Section>
     {/if}
 
-    {#if data.skills}
-      <Section name="Skills">
-        <Skills items={data.skills} />
-      </Section>
-    {/if}
-
     {#if data.projects}
       <Section name="Projects">
         <Projects items={data.projects} />
+      </Section>
+    {/if}
+
+    {#if data.extracurricular}
+      <Section name="Extracurricular">
+        <Extracurricular items={data.extracurricular} />
       </Section>
     {/if}
   </div>

@@ -11,7 +11,7 @@
 {#each items as project, index}
   <div class="project">
     <SecondaryHeading>
-      <a href={project.link}>
+      <a href={project.link} target="_blank">
         <i class="fa fa-github"></i>
         {project.title}
       </a>

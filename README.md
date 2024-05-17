@@ -4,7 +4,9 @@
 > 
 > **Resume**: from French *résumé*, "a summary, summing up, recapitulation"
 
-Resume for Jeremie Bornais, created in Svelte.
+Resume for Isaac Kilbourne, created in Svelte.
+
+Based on the foundations written by [Jeremie Bornais](https://github.com/jere-mie/resume). Thanks Jeremie :heart:
 
 ## Get started
 
@@ -18,3 +20,9 @@ Then just two commands:
 ## This is a Website, not a Resume
 
 Yes, this is a website. BUT, it is also a resume. To turn this into an actual file, simply 'print' the webpage, and save to PDF!
+
+### Recommended Settings
+
+1. Use `Microsoft Print to PDF` if on Windows. Otherwise, the result will simply be a PDF containing an image, no text.
+2. `Margins: none`. The generated resume content contains its own margins.
+3. `Scale: Page Width` or `Scale: 100%`.

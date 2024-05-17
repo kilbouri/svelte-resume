@@ -50,13 +50,12 @@
     font-size: 2.5rem;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 15px;
   }
 
   .links {
     display: flex;
     justify-content: left;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
   }
 
   .links > span {
