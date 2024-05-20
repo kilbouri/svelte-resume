@@ -15,7 +15,7 @@
 <Header info={data.info}></Header>
 
 <main>
-  <div style="width: 50%">
+  <div>
     {#if data.tiny_text}
       <Tiny>{data.tiny_text}</Tiny>
     {/if}
@@ -33,7 +33,7 @@
     {/if}
   </div>
 
-  <div style="width: 45%;">
+  <div>
     {#if data.education}
       <Section name="Education">
         <Education items={data.education} />
@@ -60,5 +60,9 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+  }
+
+  main > div {
+    width: 49%;
   }
 </style>

@@ -2,7 +2,7 @@
   export let name: string;
 </script>
 
-<div class={name}>
+<div id={name}>
   <h1>{name || ""}</h1>
   <hr />
   <slot />
@@ -13,5 +13,9 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 1.5rem;
+  }
+
+  hr {
+    margin: 0;
   }
 </style>
