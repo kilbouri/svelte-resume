@@ -74,31 +74,6 @@
             "minItems": 1,
             "type": "array"
         },
-        "extracurricular": {
-            "items": {
-                "properties": {
-                    "description": {
-                        "description": "Description of the extracurricular activity",
-                        "type": "string"
-                    },
-                    "location": {
-                        "description": "Location of the extracurricular activity",
-                        "type": "string"
-                    },
-                    "title": {
-                        "description": "Title of the extracurricular activity",
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "title",
-                    "description"
-                ],
-                "type": "object"
-            },
-            "minItems": 1,
-            "type": "array"
-        },
         "info": {
             "description": "The most important information on your resume, such as name and contact.",
             "properties": {

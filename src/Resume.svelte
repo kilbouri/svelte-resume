@@ -4,7 +4,6 @@
   import Section from "./components/Section.svelte";
   import Education from "./components/sections/Education.svelte";
   import Experience from "./components/sections/Experience.svelte";
-  import Extracurricular from "./components/sections/Extracurricular.svelte";
   import Skills from "./components/sections/Skills.svelte";
   import Projects from "./components/sections/Projects.svelte";
 
@@ -43,12 +42,6 @@
     {#if data.projects}
       <Section name="Projects">
         <Projects items={data.projects} />
-      </Section>
-    {/if}
-
-    {#if data.extracurricular}
-      <Section name="Extracurricular">
-        <Extracurricular items={data.extracurricular} />
       </Section>
     {/if}
   </div>

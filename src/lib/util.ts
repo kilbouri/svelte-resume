@@ -1,7 +1,4 @@
 export const dateRange = (start: string, end: string | undefined): string => {
-  if (!end) {
-    return start;
-  }
-
+  end = end || "Present";
   return start + " - " + end;
 };

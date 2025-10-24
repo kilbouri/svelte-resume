@@ -1,6 +1,4 @@
 <script lang="ts">
-  import type { HTMLAttributes } from "svelte/elements";
-
   export let color: string = "gray";
 </script>
 

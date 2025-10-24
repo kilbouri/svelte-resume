@@ -23,16 +23,29 @@
     ],
     "experience": [
         {
+            "title": "Full-Stack Software Developer",
+            "company": "Purolator Digital Lab",
+            "location": "Kitchener, ON",
+            "start": "July 2024",
+            "details": [
+                "Leveraged ASP.NET and PostgreSQL on Azure to develop and integrate a modern international shipping REST API with existing systems",
+                "Developed a new shipment platform concept using React and TailwindCSS",
+                "Designed and implemented comprehensive automated unit and integration tests with over 90% coverage",
+                "Implemented CI/CD pipelines for multiple projects with Terraform and Azure Pipelines",
+                "Collaborated with QA and business teams to troubleshoot and resolve system incidents"
+            ]
+        },
+        {
             "title": "Full-Stack Software Developer Intern",
             "company": "Purolator Digital Lab",
             "location": "Kitchener, ON",
             "start": "May 2022",
             "end": "April 2023",
             "details": [
-                "Worked in an Agile team to implement an IoT device monitoring front-end with <b>React</b> and <b>Bootstrap</b>",
-                "Created backend <b>REST</b> and <b>GraphQL</b> APIs with <b>Microsoft Azure</b>, <b>PostgreSQL</b>, and <b>.NET</b>",
-                "Performed back-end unit tests using <b>XUnit</b> and stress tests using Apache JMeter",
-                "Developed <b>CI/CD</b> pipelines using <b>Azure Pipelines</b> to provision infrastructure with <b>Hashicorp Terraform</b>, build, test, and deploy systems",
+                "Worked in an Agile team to implement an IoT device monitoring front-end with React and Bootstrap",
+                "Created backend REST and GraphQL APIs with Microsoft Azure, PostgreSQL, and .NET",
+                "Performed back-end unit tests using XUnit and stress tests using Apache JMeter",
+                "Developed CI/CD pipelines using Azure Pipelines to provision infrastructure with Terraform, build, test, and deploy systems",
                 "Deployed IoT solution to improve efficiency in Purolator sorting facilities, users stated strong preference over previous system"
             ]
         },
@@ -44,19 +57,8 @@
             "end": "April 2022",
             "details": [
                 "Developed features for an open-source Discord bot written in Ruby with DiscordRB",
-                "Collaborated on a rewrite of the above bot using <b>TypeScript</b> and Discord.JS",
-                "Worked in a team to create a wiki for computer science students using <b>Docusaurus</b>"
-            ]
-        },
-        {
-            "title": "Programming Team & Lead Programmer",
-            "company": "FIRST Robotics Team 7058 - StrathDroids",
-            "location": "Strathroy, ON",
-            "start": "March 2018",
-            "end": "July 2019",
-            "details": [
-                "Led a team of 4 to program a robot for the Destination: Deep Space season using <b>Java</b> (2019)",
-                "Worked in a team of 3 to program a robot in <b>Java</b> which <b>won at the regional level</b> for the First Power Up! season (2018)"
+                "Collaborated on a rewrite of the above bot using TypeScript and Discord.JS",
+                "Worked in a team to create a wiki for computer science students using Docusaurus"
             ]
         }
     ],
@@ -65,17 +67,18 @@
             "category": "Languages",
             "items": [
                 "C",
-                "C++",
                 "C#",
-                "Python",
-                "Lua",
-                "JavaScript",
-                "TypeScript",
-                "Java",
-                "HTML5",
+                "C++",
                 "CSS",
+                "HTML5",
+                "Java",
+                "JavaScript",
+                "Lua",
+                "Python",
+                "Rust",
                 "SCSS",
-                "SQL"
+                "SQL",
+                "TypeScript"
             ]
         },
         {
@@ -95,6 +98,8 @@
                 "Bun",
                 "Express",
                 "Azure Functions",
+                "Azure ServiceBus",
+                "ASP.NET Web API",
                 "MongoDB",
                 "PostgreSQL",
                 "Redis",
@@ -106,9 +111,8 @@
             "items": [
                 "Git",
                 "VS Code",
-                "Eclipse",
                 "Docker",
-                "Hashicorp Terraform",
+                "Terraform",
                 "Azure DevOps",
                 "Azure Pipelines",
                 "GitHub Actions"
@@ -117,10 +121,12 @@
         {
             "category": "Platforms",
             "items": [
-                "Windows",
                 "Linux",
-                "Google Cloud Platform",
-                "Microsoft Azure"
+                "MacOS",
+                "Windows",
+                "Microsoft Azure",
+                "Amazon Web Services",
+                "Google Cloud Platform"
             ]
         }
     ],
@@ -129,17 +135,17 @@
             "title": "Passman",
             "link": "https://github.com/chorman0773/comp3340-passman",
             "details": [
-                "A password manager that uses <b>end-to-end encryption</b> to ensure only the user can view their data",
+                "A password manager that uses end-to-end encryption to ensure only the user can view their data",
                 "Designed so that not even the servers running Passman are ever able to view a user's data",
-                "Developed a <b>SvelteKit</b> front-end and Rust backend using zero-knowledge proofs and end-to-end encryption",
-                "Created user interface prototypes using <b>Figma</b>"
+                "Developed a SvelteKit front-end and Rust backend using zero-knowledge proofs and end-to-end encryption",
+                "Created user interface prototypes using Figma"
             ]
         },
         {
             "title": "StudentSync",
             "link": "https://github.com/kilbouri/student-sync",
             "details": [
-                "A <b>C++ 20</b> client/server application that enables educators to remotely view the screens of their students",
+                "A C++ 20 client/server application that enables educators to remotely view the screens of their students",
                 "Server supports multiple concurrent clients via threading",
                 "Utilized Winsock2's TCP sockets, GDI+, and FFmpeg to send H.264-encoded images from clients to the server"
             ]
@@ -148,31 +154,19 @@
             "title": "isaac.kilbourne.ca",
             "link": "https://isaac.kilbourne.ca",
             "details": [
-                "Created responsive mobile-first website with <b>HTML5</b>, <b>Bootstrap</b>, and <b>CSS</b>",
-                "Designed a theme system with persistence using <b>JavaScript</b>",
-                "Used GitHub <b>REST API</b> to fetch an up-to-date list of projects on page load"
+                "Created responsive mobile-first website with HTML5, Bootstrap, and CSS",
+                "Designed a theme system with persistence using JavaScript",
+                "Used GitHub REST API to fetch an up-to-date list of projects on page load"
             ]
         },
         {
             "title": "Terminal-3D",
             "link": "https://github.com/kilbouri/terminal-3d",
             "details": [
-                "Realtime 3D viewer written in <b>C</b> for Linux terminals",
+                "Realtime 3D viewer written in C for Linux terminals",
                 "Wrote routines to load 3D mesh data from STL files, perform 3D perspective rendering and shading",
                 "Problem-solved and optimized around terminal throughput bottleneck"
             ]
-        }
-    ],
-    "extracurricular": [
-        {
-            "title": "Teaching Assistant",
-            "location": "University of Windsor",
-            "description": "Lead labs and provided valuable feedback on students' assignments to guide students to success (2021, 2022)"
-        },
-        {
-            "title": "Advent of Code",
-            "location": "University of Windsor",
-            "description": "Completed all challenges and ranked first among all students (2020, 2021)"
         }
     ]
 }
