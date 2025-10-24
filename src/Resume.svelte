@@ -25,23 +25,23 @@
       </Section>
     {/if}
 
-    {#if data.skills}
-      <Section name="Skills">
-        <Skills items={data.skills} />
-      </Section>
-    {/if}
-  </div>
-
-  <div>
     {#if data.education}
       <Section name="Education">
         <Education items={data.education} />
       </Section>
     {/if}
+  </div>
 
+  <div>
     {#if data.projects}
       <Section name="Projects">
         <Projects items={data.projects} />
+      </Section>
+    {/if}
+
+    {#if data.skills}
+      <Section name="Skills">
+        <Skills items={data.skills} />
       </Section>
     {/if}
   </div>
