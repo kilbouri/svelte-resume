@@ -9,6 +9,13 @@
 
   // Import resume data
   import data from "./resume.json";
+
+  const technicalExp = data.experience.filter(
+    (item) => item.type === "technical",
+  );
+  const agricultureExp = data.experience.filter(
+    (item) => item.type === "agriculture",
+  );
 </script>
 
 <Header info={data.info}></Header>
@@ -19,9 +26,15 @@
       <Tiny>{data.tiny_text}</Tiny>
     {/if}
 
-    {#if data.experience}
-      <Section name="Experience">
-        <Experience items={data.experience} />
+    {#if technicalExp}
+      <Section name="Technical Experience">
+        <Experience items={technicalExp} />
+      </Section>
+    {/if}
+
+    {#if data.skills}
+      <Section name="Technical Skills">
+        <Skills items={data.skills} />
       </Section>
     {/if}
 
@@ -33,15 +46,15 @@
   </div>
 
   <div>
-    {#if data.projects}
-      <Section name="Projects">
-        <Projects items={data.projects} />
+    {#if agricultureExp}
+      <Section name="Agricultural Experience">
+        <Experience items={agricultureExp} />
       </Section>
     {/if}
 
-    {#if data.skills}
-      <Section name="Skills">
-        <Skills items={data.skills} />
+    {#if data.projects}
+      <Section name="Projects">
+        <Projects items={data.projects} />
       </Section>
     {/if}
   </div>

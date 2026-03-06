@@ -17,26 +17,28 @@
             "details": [
                 "Minor in Mathematics",
                 "Achieved Dean's Honour Roll in every year",
-                "Topics covered include web design, data structures, algorithm design, computer networking, and operating systems"
+                "Topics covered include web design, data structures, algorithm design, computer networking, databases, and operating systems"
             ]
         }
     ],
     "experience": [
         {
+            "type": "technical",
             "title": "Full-Stack Software Developer",
             "company": "Purolator Digital Lab",
             "location": "Kitchener, ON",
             "start": "July 2024",
             "details": [
-                "Leveraged ASP.NET and PostgreSQL on Azure to develop and integrate a modern international shipping REST API with existing systems",
-                "Developed a new shipment platform concept using React and TailwindCSS",
+                "Wrote MicroPython firmware for prototype IoT sensor array to asynchronously communicate with backend systems",
+                "Leveraged ASP.NET and PostgreSQL on Azure to develop and integrate multiple modern REST APIs with existing systems",
                 "Designed and implemented comprehensive automated unit and integration tests with over 90% coverage",
                 "Implemented CI/CD pipelines for multiple projects with Terraform and Azure Pipelines",
-                "Collaborated with QA and business teams to troubleshoot and resolve system incidents"
+                "Collaborated with quality and business teams to troubleshoot and resolve system incidents"
             ]
         },
         {
-            "title": "Full-Stack Software Developer Intern",
+            "type": "technical",
+            "title": "Full-Stack Software Developer Co-Op",
             "company": "Purolator Digital Lab",
             "location": "Kitchener, ON",
             "start": "May 2022",
@@ -50,15 +52,17 @@
             ]
         },
         {
-            "title": "Software Developer",
-            "company": "University of Windsor Computer Science Society",
-            "location": "Windsor, ON",
-            "start": "February 2021",
-            "end": "April 2022",
+            "type": "agriculture",
+            "title": "Farm Equipment Operator (Seasonal, Volunteer)",
+            "company": "Athol Farms",
+            "location": "Lambeth, ON",
+            "start": "August 2023",
             "details": [
-                "Developed features for an open-source Discord bot written in Ruby with DiscordRB",
-                "Collaborated on a rewrite of the above bot using TypeScript and Discord.JS",
-                "Worked in a team to create a wiki for computer science students using Docusaurus"
+                "Utilized equipment from brands including New Holland, Case IH, John Deere, Fendt, Ford, Massey Ferguson, and Marcrest",
+                "Assisted in the full production cycle of commercial hay, including mowing, tedding, windrowing, square baling, and bundling",
+                "Aided in harvest operations, including operation of combine harvesters and grain buggies, as well as grain transport",
+                "Safely transported equipment and large loads on public and private roadways",
+                "Worked to resolve problems quickly and safely while in the field"
             ]
         }
     ],
