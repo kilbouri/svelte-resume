@@ -13,10 +13,11 @@
 {#each items as position, index}
   <div class="job">
     <PrimaryHeading>{position.title}</PrimaryHeading>
-    <SecondaryHeading>{position.company}</SecondaryHeading>
 
-    <div class="icon-row" style="width: 100%;">
-      <span>
+    <div class="icon-row">
+      <SecondaryHeading>{position.company}</SecondaryHeading>
+
+      <span style="margin-left: auto;">
         <i class="fa fa-calendar"></i>
         {dateRange(position.start, position.end)}
       </span>

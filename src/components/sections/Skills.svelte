@@ -16,6 +16,6 @@
 
 <style>
   .skill {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
 </style>

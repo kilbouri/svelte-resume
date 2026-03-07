@@ -7,11 +7,11 @@
         "github": "kilbouri",
         "linkedin": "kilbouri"
     },
-    "tiny_text": "Bachelors of Computer Science (Honours) with Mathematics Minor, University of Windsor (September 2020 - April 2024)",
+    "tiny_text": "Bachelor of Science in Computer Science (Honours) with Mathematics Minor, University of Windsor (September 2020 - April 2024)",
     "education": [
         {
             "location": "University of Windsor",
-            "certification": "Bachelors of Computer Science (Honours)",
+            "certification": "Bachelor of Science in Computer Science (Honours)",
             "start": "September 2020",
             "end": "April 2024",
             "details": [
@@ -23,7 +23,6 @@
     ],
     "experience": [
         {
-            "type": "technical",
             "title": "Full-Stack Software Developer",
             "company": "Purolator Digital Lab",
             "location": "Kitchener, ON",
@@ -33,11 +32,23 @@
                 "Leveraged ASP.NET and PostgreSQL on Azure to develop and integrate multiple modern REST APIs with existing systems",
                 "Designed and implemented comprehensive automated unit and integration tests with over 90% coverage",
                 "Implemented CI/CD pipelines for multiple projects with Terraform and Azure Pipelines",
-                "Collaborated with quality and business teams to troubleshoot and resolve system incidents"
+                "Collaborated with quality and business teams to troubleshoot and resolve system incidents",
+                "Optimized cloud costs of multiple projects, saving over USD$700 per month in cloud spending"
             ]
         },
         {
-            "type": "technical",
+            "title": "Farm Equipment Operator (Seasonal, Volunteer)",
+            "company": "Athol Farms",
+            "location": "Lambeth, ON",
+            "start": "August 2023",
+            "details": [
+                "Aided in cash crop operations, including tillage, planting, fertilizing, harvesting, and transport for corn, wheat and soybeans",
+                "Assisted in the full production cycle of commercial hay, including mowing, tedding, windrowing, square baling, and bundling",
+                "Utilized equipment from brands including New Holland, Case IH, John Deere, Fendt, Ford, Massey Ferguson, and Marcrest",
+                "Safely transported equipment and large loads on public and private roadways; resolved equipment breakdowns quickly while in the field"
+            ]
+        },
+        {
             "title": "Full-Stack Software Developer Co-Op",
             "company": "Purolator Digital Lab",
             "location": "Kitchener, ON",
@@ -45,24 +56,10 @@
             "end": "April 2023",
             "details": [
                 "Worked in an Agile team to implement an IoT device monitoring front-end with React and Bootstrap",
-                "Created backend REST and GraphQL APIs with Microsoft Azure, PostgreSQL, and .NET",
-                "Performed back-end unit tests using XUnit and stress tests using Apache JMeter",
+                "Created event-driven backend REST and GraphQL APIs with Microsoft Azure, PostgreSQL, .NET, and Azure Functions",
+                "Performed back-end unit, integration and end-to-end tests using XUnit and stress tests using Apache JMeter",
                 "Developed CI/CD pipelines using Azure Pipelines to provision infrastructure with Terraform, build, test, and deploy systems",
                 "Deployed IoT solution to improve efficiency in Purolator sorting facilities, users stated strong preference over previous system"
-            ]
-        },
-        {
-            "type": "agriculture",
-            "title": "Farm Equipment Operator (Seasonal, Volunteer)",
-            "company": "Athol Farms",
-            "location": "Lambeth, ON",
-            "start": "August 2023",
-            "details": [
-                "Utilized equipment from brands including New Holland, Case IH, John Deere, Fendt, Ford, Massey Ferguson, and Marcrest",
-                "Assisted in the full production cycle of commercial hay, including mowing, tedding, windrowing, square baling, and bundling",
-                "Aided in harvest operations, including operation of combine harvesters and grain buggies, as well as grain transport",
-                "Safely transported equipment and large loads on public and private roadways",
-                "Worked to resolve problems quickly and safely while in the field"
             ]
         }
     ],
@@ -77,60 +74,39 @@
                 "HTML5",
                 "Java",
                 "JavaScript",
+                "Kotlin",
                 "Lua",
                 "Python",
                 "Rust",
                 "SCSS",
-                "SQL",
                 "TypeScript"
             ]
         },
         {
-            "category": "Front-end",
+            "category": "Frameworks",
             "items": [
-                "React",
-                "Svelte",
-                "SvelteKit",
-                "Bootstrap",
-                "TailwindCSS"
-            ]
-        },
-        {
-            "category": "Back-end",
-            "items": [
-                "NodeJS",
-                "Bun",
-                "Express",
-                "Azure Functions",
-                "Azure ServiceBus",
                 "ASP.NET Web API",
-                "MongoDB",
-                "PostgreSQL",
-                "Redis",
-                "SQLite"
+                "Azure Functions",
+                "Express",
+                "Jetpack Compose",
+                "MicroPython",
+                "React",
+                "Svelte"
             ]
         },
         {
-            "category": "Tools",
+            "category": "Cloud",
             "items": [
-                "Git",
-                "VS Code",
-                "Docker",
-                "Terraform",
+                "AWS",
                 "Azure DevOps",
                 "Azure Pipelines",
-                "GitHub Actions"
-            ]
-        },
-        {
-            "category": "Platforms",
-            "items": [
-                "Linux",
-                "MacOS",
-                "Windows",
-                "Microsoft Azure",
-                "Amazon Web Services",
-                "Google Cloud Platform"
+                "Azure",
+                "Docker",
+                "GCP",
+                "GitHub Actions",
+                "GitHub",
+                "SQL",
+                "Terraform"
             ]
         }
     ],
@@ -139,37 +115,30 @@
             "title": "Passman",
             "link": "https://github.com/chorman0773/comp3340-passman",
             "details": [
-                "A password manager that uses end-to-end encryption to ensure only the user can view their data",
-                "Designed so that not even the servers running Passman are ever able to view a user's data",
-                "Developed a SvelteKit front-end and Rust backend using zero-knowledge proofs and end-to-end encryption",
-                "Created user interface prototypes using Figma"
+                "A password manager using zero-knowledge proof and end-to-end encryption to ensure only users can access data, not even Passman servers",
+                "Frontend designed in Figma and implemented with SvelteKit; Backend implemented using Rust"
             ]
         },
         {
             "title": "StudentSync",
             "link": "https://github.com/kilbouri/student-sync",
             "details": [
-                "A C++ 20 client/server application that enables educators to remotely view the screens of their students",
-                "Server supports multiple concurrent clients via threading",
-                "Utilized Winsock2's TCP sockets, GDI+, and FFmpeg to send H.264-encoded images from clients to the server"
-            ]
-        },
-        {
-            "title": "isaac.kilbourne.ca",
-            "link": "https://isaac.kilbourne.ca",
-            "details": [
-                "Created responsive mobile-first website with HTML5, Bootstrap, and CSS",
-                "Designed a theme system with persistence using JavaScript",
-                "Used GitHub REST API to fetch an up-to-date list of projects on page load"
+                "A multithreaded C++ 20 client/server application that enables educators to remotely view the screens of their students",
+                "Utilized wxWidgets for GUI, as well as Winsock2's TCP sockets, GDI+, and FFmpeg to send H.264-encoded images from clients to the server"
             ]
         },
         {
             "title": "Terminal-3D",
             "link": "https://github.com/kilbouri/terminal-3d",
             "details": [
-                "Realtime 3D viewer written in C for Linux terminals",
-                "Wrote routines to load 3D mesh data from STL files, perform 3D perspective rendering and shading",
-                "Problem-solved and optimized around terminal throughput bottleneck"
+                "A 3D model viewer writting entirely by hand in C for terminals with multiple  modes, plus double buffering to avoid terminal output bottleneck"
+            ]
+        },
+        {
+            "title": "Lysts",
+            "link": "https://github.com/kilbouri/lysts",
+            "details": [
+                "A simple work-in-progress Android todo list using Kotlin and Jetpack Compose, since I couldn't find an ad-free to-do list with minimal bloat"
             ]
         }
     ]

@@ -2,8 +2,8 @@
 
 <style>
   h4.secondary-heading {
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 600;
-    margin: 5px 0px;
+    margin: 0px 0px 5px;
   }
 </style>

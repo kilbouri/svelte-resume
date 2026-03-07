@@ -14,9 +14,10 @@
 {#each items as education, index}
   <div class="education">
     <PrimaryHeading>{education.certification}</PrimaryHeading>
-    <SecondaryHeading>{education.location}</SecondaryHeading>
 
-    <div class="icon-row" style="width: 100%;">
+    <div class="icon-row">
+      <SecondaryHeading>{education.location}</SecondaryHeading>
+
       <span>
         <i class="fa fa-calendar"></i>
         {dateRange(education.start, education.end)}

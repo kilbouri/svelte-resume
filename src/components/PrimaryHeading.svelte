@@ -2,8 +2,8 @@
 
 <style>
   h3.primary-heading {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    margin: 5px 0px;
+    margin: 0px 0px 5px;
   }
 </style>
