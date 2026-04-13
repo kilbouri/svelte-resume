@@ -9,7 +9,7 @@
   {#each items as skill}
     <ul class="skill">
       <b>{skill.category}</b>:
-      {skill.items.join(", ")}
+      {skill.items.toSorted().join(", ")}
     </ul>
   {/each}
 </DetailList>

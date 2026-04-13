@@ -19,13 +19,13 @@
   {/if}
 
   {#if data.skills}
-    <Section name="Technical Skills">
+    <Section name="Skills" hint="in alphabetical order">
       <Skills items={data.skills} />
     </Section>
   {/if}
 
   {#if data.experience}
-    <Section name="Technical & Agricultural Experience">
+    <Section name="Experience">
       <Experience items={data.experience} />
     </Section>
   {/if}

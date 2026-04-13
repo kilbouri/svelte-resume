@@ -5,7 +5,7 @@
 <style>
   p.tiny {
     --height: 3px;
-    --font-size: calc(var(--height) / 3);
+    --font-size: var(--height);
 
     font-size: var(--font-size);
     height: var(--height);
